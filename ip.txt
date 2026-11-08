@@ -1,0 +1,9 @@
+Device Info   : CD-ROM1/1
+Area Symbols  : JUE
+Peripherals   : E000F10
+Product No    : TDBX01
+Version       : V0.100
+Release Date  : 20261108
+Boot Filename : 1ST_READ.BIN
+SW Maker Name : DBX HOMEBREW
+Game Title    : DEAD BABIES X DREAMCAST

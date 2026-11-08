@@ -1,0 +1,102 @@
+00:00:000 sdl/sdl.cpp:899 N[RENDERER]: Monitor refresh rate: 0 Hz (800 x 600)
+00:00:241 ui/gui.cpp:245 N[RENDERER]: Screen DPI is 96, size 640 x 480. Scaling by 1.00
+00:00:243 rend/gles/gles.cpp:606 N[RENDERER]: OpenGL version 4.5
+00:00:243 rend/gles/gles.cpp:607 N[RENDERER]: Vendor 'Mesa' Renderer 'llvmpipe (LLVM 19.1.7, 256 bits)' Version '4.5 (Core Profile) Mesa 25.0.7-2+deb13u1'
+00:00:267 rend/gles/gles.cpp:618 N[RENDERER]: glBlitFramebuffer test successful
+00:00:274 hw/mem/addrspace.cpp:425 N[VMEM]: Info: nvmem is enabled
+00:00:288 hw/mem/addrspace.cpp:457 N[VMEM]: BASE 0x7f2af5a90000 RAM(16 MB) 0x7f2b01a90000 VRAM64(8 MB) 0x7f2af9a90000 ARAM(2 MB) 0x7f2b15a90000
+00:00:300 hw/mem/addrspace.cpp:425 N[VMEM]: Info: nvmem is enabled
+00:00:311 hw/mem/addrspace.cpp:457 N[VMEM]: BASE 0x7f2af5a90000 RAM(16 MB) 0x7f2b01a90000 VRAM64(8 MB) 0x7f2af9a90000 ARAM(2 MB) 0x7f2b15a90000
+00:00:318 emulator.cpp:60 N[BOOT]: Game ID is [TDBX01]
+00:00:323 emulator.cpp:617 N[BOOT]: Did not load BIOS, using reios
+00:00:323 emulator.cpp:60 N[BOOT]: Game ID is [TDBX01]
+00:00:338 reios/reios.cpp:639 N[REIOS]: -----------------
+00:00:338 reios/reios.cpp:640 N[REIOS]: REIOS: Booting up
+00:00:338 reios/reios.cpp:641 N[REIOS]: -----------------
+
+--
+KallistiOS v2.3.0 [dreamcast/pristine]
+  Git revision: 38aeee7
+  Sun Nov  8 11:07:16 UTC 2026
+  @:/opt/toolchains/dc/kos
+  sh-elf-gcc (GCC) 15.2.0
+maple: active drivers:
+    Dreameye (Camera): Camera
+    Sound Input Peripheral: Microphone
+    PuruPuru (Vibration) Pack: JumpPack
+    VMU Driver: Clock, LCD, MemoryCard
+    Mouse Driver: Mouse
+    Keyboard Driver: Keyboard
+    Controller Driver: Controller
+    Lightgun: LightGun
+vid_set_mode: 640x480IL NTSC with 1 framebuffers.
+maple: attached devices:
+  A0: Dreamcast Controller           (01000000: Controller)
+  A1: Visual Memory                  (0e000000: Clock, LCD, MemoryCard)
+  A2: Visual Memory                  (0e000000: Clock, LCD, MemoryCard)
+
+DeadBabiesX Dreamcast original-art test build
+vid_set_mode: 640x480IL NTSC with 1 framebuffers.
+fs_iso9660: disc change detected
+  (joliet level 3 extensions detected)
+DBX Dreamcast platform ready; PVR free=5850312
+PASS: original swept collision response
+PASS: swept collision miss
+PASS: machine gun creates a projectile
+PASS: machine gun fires from its moving muzzle
+PASS: machine gun velocity is finite
+PASS: flamethrower creates a projectile
+PASS: flame retains its originating player and muzzle
+PASS: flame velocity is finite
+PASS: normal pickups stop at weapon level 3
+PASS: mega pickups reach and stop at weapon level 5
+PASS: original grenade fragment counts preserved
+PASS: machine gun impulse scales through level 5
+PASS: mega plasma emits every shot in its fan
+PASS: level 4/5 plasma shots have finite full-speed velocities
+PASS: mega grenade retains launcher power
+PASS: level 4/5 remote grenade produces 80/100 fragments
+PASS: mega rocket volley contains 4/5 rockets
+PASS: mega railgun cooldown continues to scale
+PASS: mega flame range/lifetime scales to levels 4/5
+PASS: mega plasma emits every shot in its fan
+PASS: level 4/5 plasma shots have finite full-speed velocities
+PASS: mega grenade retains launcher power
+PASS: level 4/5 remote grenade produces 80/100 fragments
+PASS: mega rocket volley contains 4/5 rockets
+PASS: mega railgun cooldown continues to scale
+PASS: mega flame range/lifetime scales to levels 4/5
+Self-test: 0 failures
+MUSIC start
+MUSIC ready
+GAME players started: 1
+GAME weapon level cap: 3
+ROUND start players=1 difficulty=NORMAL PVR-free=2661736
+
+--
+KallistiOS v2.3.0 [dreamcast/pristine]
+  Git revision: 38aeee7
+  Sun Nov  8 11:07:16 UTC 2026
+  @:/opt/toolchains/dc/kos
+  sh-elf-gcc (GCC) 15.2.0
+maple: active drivers:
+    Dreameye (Camera): Camera
+    Sound Input Peripheral: Microphone
+    PuruPuru (Vibration) Pack: JumpPack
+    VMU Driver: Clock, LCD, MemoryCard
+    Mouse Driver: Mouse
+    Keyboard Driver: Keyboard
+    Controller Driver: Controller
+    Lightgun: LightGun
+vid_set_mode: 640x480IL NTSC with 1 framebuffers.
+maple: attached devices:
+  A0: Dreamcast Controller           (01000000: Controller)
+  A1: Visual Memory                  (0e000000: Clock, LCD, MemoryCard)
+  A2: Visual Memory                  (0e000000: Clock, LCD, MemoryCard)
+
+DeadBabiesX Dreamcast original-art test build
+vid_set_mode: 640x480IL NTSC with 1 framebuffers.
+fs_iso9660: disc change detected
+  (joliet level 3 extensions detected)
+FATAL: Invalid texture: /cd/font.dct
+02:38:226 ui/gui.cpp:484 E[COMMON]: Flycast has stopped: Fatal: SH4 exception when blocked

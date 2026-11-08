@@ -1,0 +1,693 @@
+{
+  "textures": [
+    {
+      "path": "game/data/particles/boost_particle.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/particles/particle.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/particles/rail_particle.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/gibs/gib6.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/gibs/gib3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/gibs/gib5.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/gibs/gib2.dct",
+      "width": 64,
+      "height": 32,
+      "vram_bytes": 4096
+    },
+    {
+      "path": "game/data/gibs/gib4.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/gibs/gib1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/plasma_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/gravity_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/paracute.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/random_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/rail_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/grenade_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/rocket_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/ioncannon_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/time_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/shield_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/nuke_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/gun_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/crates/flamethrower_crate.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/gui/gui_box.dct",
+      "width": 256,
+      "height": 128,
+      "vram_bytes": 65536
+    },
+    {
+      "path": "game/data/gui/game_over.dct",
+      "width": 512,
+      "height": 512,
+      "vram_bytes": 524288
+    },
+    {
+      "path": "game/data/aimers/aimer_blue.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/aimers/aimer_yellow.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/aimers/aimer_green.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/aimers/aimer_red.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/weapons/bullet_tracer.dct",
+      "width": 8,
+      "height": 8,
+      "vram_bytes": 128
+    },
+    {
+      "path": "game/data/weapons/power_bar_box.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/weapons/rail_tracer.dct",
+      "width": 8,
+      "height": 8,
+      "vram_bytes": 128
+    },
+    {
+      "path": "game/data/weapons/rocket.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/weapons/fire.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/weapons/grenade.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/weapons/smoke.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/weapons/muzzle_flash_1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/weapons/muzzle_flash_2.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/weapons/rocket_smoke.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/weapons/plasma.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/weapons/muzzle_flash_3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/weapons/corona.dct",
+      "width": 128,
+      "height": 64,
+      "vram_bytes": 16384
+    },
+    {
+      "path": "game/data/weapons/spark.dct",
+      "width": 8,
+      "height": 8,
+      "vram_bytes": 128
+    },
+    {
+      "path": "game/data/weapons/power_bar.dct",
+      "width": 16,
+      "height": 16,
+      "vram_bytes": 512
+    },
+    {
+      "path": "game/data/babies/baby_getup_2.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/4_balloon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/2_balloon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/6_balloon.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/babies/8_balloon.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/babies/5_balloon.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/babies/babyballoon1.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_walk_2.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_walk_5.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/babyballoon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_walk_1.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/3_balloon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/balloon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_walk_4.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_getup_3.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_stand.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_getup_4.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/deadbaby.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/babyballoon2.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/babyballoon3.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/7_balloon.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/babies/baby_walk_3.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/1_balloon.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_getup_1.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/babies/baby_bomb.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/backgrounds/train_bg2.dct",
+      "width": 512,
+      "height": 512,
+      "vram_bytes": 524288
+    },
+    {
+      "path": "game/data/backgrounds/train_fg.dct",
+      "width": 512,
+      "height": 512,
+      "vram_bytes": 524288
+    },
+    {
+      "path": "game/data/backgrounds/train_bg3.dct",
+      "width": 512,
+      "height": 512,
+      "vram_bytes": 524288
+    },
+    {
+      "path": "game/data/backgrounds/train_bg1.dct",
+      "width": 512,
+      "height": 512,
+      "vram_bytes": 524288
+    },
+    {
+      "path": "game/data/player/yellow/yellow_0.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_legs_4.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_legs_1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_90.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_legs_3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_lives.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/player/yellow/yellow_legs_2.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_legs_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/yellow/yellow_45.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_legs_3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_90.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_legs_2.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_0.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_legs_1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_legs_4.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_lives.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/player/blue/blue_legs_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_45.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/blue/blue_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_legs_4.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_legs_3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_lives.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/player/green/green_45.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_90.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_0.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_legs_1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_legs_2.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/green/green_legs_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_lives.dct",
+      "width": 32,
+      "height": 32,
+      "vram_bytes": 2048
+    },
+    {
+      "path": "game/data/player/red/red_legs_2.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_legs_3.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_legs_4.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_legs_1.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_0.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_45.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_legs_stand.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "game/data/player/red/red_90.dct",
+      "width": 64,
+      "height": 64,
+      "vram_bytes": 8192
+    },
+    {
+      "path": "font.dct",
+      "width": 256,
+      "height": 256,
+      "vram_bytes": 131072
+    }
+  ],
+  "texture_vram_bytes": 3404160,
+  "converted_wav_bytes": 494981,
+  "effects_codec": "KOS Yamaha ADPCM mono up to 22050 Hz, at most 65000 samples",
+  "music": "streamed signed 16-bit stereo 22050 Hz",
+  "font": "DejaVu Sans Bold; licence retained"
+}
